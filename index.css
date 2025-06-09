@@ -1,0 +1,62 @@
+h1 {
+  font-style: oblique;
+  color: rgb(194, 63, 16);
+}
+
+header p {
+  font-size: medium;
+  font-style: italic;
+}
+
+main {
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+}
+
+article {
+  margin: 40px;
+  border-style: double;
+  border-radius: 15px;
+  padding: 5px 2px 15px 10px;
+}
+
+#couch {
+  background-color: rgb(177, 181, 181);
+}
+
+#table {
+  background-color: rgb(180, 212, 125);
+}
+
+#chair {
+  background-color: moccasin;
+}
+
+.price {
+  color: brown;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+button {
+  border-style: inset;
+  border-width: 3px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#couch button {
+  background-color: rgba(240, 200, 136, 0.867);
+}
+
+#table button {
+  background-color: rgba(255, 157, 0, 0.867);
+}
+
+#chair button {
+  background-color: rgb(237, 150, 110);
+}
+
+button:hover {
+  cursor: pointer;
+}
